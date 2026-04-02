@@ -9,11 +9,7 @@ INPUT_DIR = SCRIPT_DIR / '../your_data'  # JSON 文件所在目录
 # 输出 TXT 保存在同目录
 
 # 类别映射（改成你自己的类别列表，顺序决定 class_id）
-CLASSES = [
-    'pod-box', 'pod', 'branch fruiting node', 'fruiting node',
-    'branch', 'shattered pod-box', 'shattered pod',
-    'scale bar', 'root', 'main stem'
-]
+CLASSES = ['cat', 'dog']
 
 def json_to_yolo(json_path: Path):
     """转换单个 JSON 文件"""

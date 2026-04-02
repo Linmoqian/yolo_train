@@ -1,24 +1,16 @@
 # YOLO 数据集配置
 
-path: ../datasets/my_dataset
+path: dataset
 
 train: images/train
 val: images/val
 test: images/test
 
 # 类别信息
-nc: 10  # 类别数量
+nc: 2  # 类别数量
 names:
-  0: pod-box
-  1: pod
-  2: branch fruiting node
-  3: fruiting node
-  4: branch
-  5: shattered pod-box
-  6: shattered pod
-  7: scale bar
-  8: root
-  9: main stem
+  0: cat
+  1: dog
 
 # 目录结构
 # datasets/my_dataset/
